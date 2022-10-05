@@ -1,0 +1,28 @@
+{
+  "name": "reddit-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matolink/reddit-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matolink/reddit-cli/issues"
+  },
+  "homepage": "https://github.com/matolink/reddit-cli#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "open": "^8.4.0",
+    "yargs": "^17.6.0"
+  }
+}
